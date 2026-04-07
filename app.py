@@ -32,4 +32,4 @@ if st.button("Prediksi"):
     # Prediksi
     prediction = model.predict(input_scaled)
     
-    st.success(f"Prediksi Kekuatan Beton: {prediction[0]:.2f} MPa")
+    st.success(f"Prediksi Kekuatan Tekan Beton: {prediction[0]:.2f} MPa")
