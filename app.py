@@ -11,14 +11,14 @@ st.title("Prediksi Kekuatan Tekan Beton (Concrete Compressive Strength)")
 st.write("Masukkan nilai fitur:")
 
 # Input fitur
-cement = st.number_input("Cement", min_value=0.0)
-blast_furnace_slag = st.number_input("Blast Furnace Slag", min_value=0.0)
-fly_ash = st.number_input("Fly Ash", min_value=0.0)
-water = st.number_input("Water", min_value=0.0)
-superplasticizer = st.number_input("Superplasticizer", min_value=0.0)
-coarse_aggregate = st.number_input("Coarse Aggregate", min_value=0.0)
-fine_aggregate = st.number_input("Fine Aggregate", min_value=0.0)
-age = st.number_input("Age", min_value=1)
+cement = st.number_input("Cement (kg/m³)", min_value=0.0)
+blast_furnace_slag = st.number_input("Blast Furnace Slag (kg/m³)", min_value=0.0)
+fly_ash = st.number_input("Fly Ash (kg/m³)", min_value=0.0)
+water = st.number_input("Water (kg/m³)", min_value=0.0)
+superplasticizer = st.number_input("Superplasticizer (kg/m³)", min_value=0.0)
+coarse_aggregate = st.number_input("Coarse Aggregate  (kg/m³)", min_value=0.0)
+fine_aggregate = st.number_input("Fine Aggregate (kg/m³)", min_value=0.0)
+age = st.number_input("Age (day)", min_value=1)
 
 if st.button("Prediksi"):
     input_data = np.array([[
