@@ -132,7 +132,7 @@ Model berhasil memenuhi ketentuan:
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/username/prediksi-kekuatan-beton.git
+git clone https://github.com/aaaskyyyy/prediksi-kekuatan-beton.git
 cd nama-repository
 ```
 
